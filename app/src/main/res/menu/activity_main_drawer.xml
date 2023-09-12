@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cars"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="Cars" />
+        <item
+            android:id="@+id/nav_moreInfo"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="Legends Of JDM" />
+        <item
+            android:id="@+id/nav_musicPlayer"
+            android:icon="@drawable/baseline_library_music_24"
+            android:title="MusicPlayer" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_compas"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Compas" />
+        <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/baseline_file_open_24"
+            android:title="File" />
+        <item
+            android:id="@+id/nav_microphone"
+            android:icon="@drawable/baseline_mic_24"
+            android:title="Microphone" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_people_24"
+            android:title="Text" />
+        <item
+            android:id="@+id/nav_shared"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_network"
+            android:icon="@drawable/baseline_network_check_24"
+            android:title="Network" />
+<!--        <item-->
+<!--            android:id="@+id/nav_registration"-->
+<!--            android:icon="@drawable/baseline_account_balance_24"-->
+<!--            android:title="Registration" />-->
+    </group>
+</menu>

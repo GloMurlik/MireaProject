@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cars"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.cars.CarsFragment"
+        android:label="Cars"
+        tools:layout="@layout/fragment_nav_cars" />
+    <fragment
+        android:id="@+id/nav_moreInfo"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.legends.MoreInfoFragment"
+        android:label="JDM Legends"
+        tools:layout="@layout/fragment_nav_more_info" />
+    <fragment
+        android:id="@+id/nav_musicPlayer"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.music.PlayerFragment"
+        android:label="MusicPlayer"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.camera.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_compas"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.compas.CompasFragment"
+        android:label="Compas"
+        tools:layout="@layout/fragment_compas" />
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.microphone.MicrophoneFragment"
+        android:label="Microphone"
+        tools:layout="@layout/fragment_microphone"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/nav_shared"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.shared.SharedFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_shared"/>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map"/>
+    <activity
+        android:id="@+id/nav_registration"
+        android:name="ru.mirea.gribinichenko.mireaproject.Registration"
+        android:label="Registration"
+        tools:layout="@layout/activity_registration"/>
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.network.NetworkFragment"
+        android:label="Network"
+        tools:layout="@layout/fragment_network"/>
+    <fragment
+        android:id="@+id/nav_file"
+        android:name="ru.mirea.gribinichenko.mireaproject.ui.file.FileFragment"
+        android:label="File"
+        tools:layout="@layout/fragment_file"/>
+</navigation>
