@@ -72,8 +72,8 @@ public class PlayerFragment extends Fragment{
                 if (play == false) {
                     play = true;
                     binding.button3.setImageResource(android.R.drawable.ic_media_pause);
-                    binding.textView1.setText("Полчаса");
-                    binding.textView2.setText("Velial Squad");
+                    binding.textView1.setText("100 лет одиночества");
+                    binding.textView2.setText("КопенGagen");
                     binding.image.setImageResource(R.drawable.velials);
 
                     Intent serviceIntent = new Intent(getActivity(), PlayerService.class);

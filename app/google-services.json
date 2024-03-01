@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "411669902799",
-    "project_id": "mireaproject-2aa89",
-    "storage_bucket": "mireaproject-2aa89.appspot.com"
+    "project_number": "550263280400",
+    "project_id": "mireaproject-a89a8",
+    "storage_bucket": "mireaproject-a89a8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411669902799:android:4abd25fc92ff0d5bf70eba",
+        "mobilesdk_app_id": "1:550263280400:android:b8f5eacc17c9d48b408b95",
         "android_client_info": {
-          "package_name": "ru.mirea.likhomanov.mireaproject"
+          "package_name": "ru.mirea.gribinichenko.mireaproject"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "411669902799-0qgvu24jipq93pmimja4eg2k906kth05.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCGotGJr8FGTPYAKfWKurzue09nrdxgyAk"
+          "current_key": "AIzaSyAnaHwZonPbb2iL1l5s1FVnc116FkbbIzs"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "411669902799-0qgvu24jipq93pmimja4eg2k906kth05.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
